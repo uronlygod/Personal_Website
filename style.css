@@ -1,0 +1,182 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Ms Madi";
+    src: url("MsMadi-Regular.ttf");
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.title {
+    font-size: 85px;
+}
+.intro-text {
+    max-width: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+.intro {
+
+    margin-left: 30px;
+}
+
+.intro-p-text {
+    font-size: 20px;
+    font-weight:lighter
+}
+
+.education-text-wrapper {
+    text-align: center;
+}
+
+.education-text {
+    font-size: 20px;
+}
+
+.education {
+    padding: 2rem;
+}
+
+.education-header {
+    font-size: 85px;
+    text-align: center;
+}
+
+.education-bg {
+    background-color: #EEF3F5;
+    padding: 2rem;
+}
+
+.slogan-box {
+    background-color:rgb(104, 12, 169)
+}
+.slogan-tag{
+    text-align: center;
+    color:#EEF3F5;
+    padding: 50px;
+    margin: 0px;
+}
+.image-wrapper {
+    display: flex;
+    height: 380px;
+    justify-content: center;
+    gap: 50px;
+}
+
+.image-wrapper-image {
+    overflow: hidden;
+    object-fit: contain;
+}
+
+/*
+    1. Only use classes. Don't use IDs or HTML selectors.
+    2. Only select things with one class. Don't use inheritance selectors.
+*/
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.header-title {
+    font-family: 'Courier New', Courier, monospace;
+    color: #1F2232;
+    font-size: 40px;
+}
+
+.header-content {}
+
+.home-content {
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-items: center;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.btn {
+    font-size: 26px;
+    color: #1F2232;
+    text-decoration: none;
+}
+
+.btn:hover {
+    color: pink;
+}
+.btn-bold{
+    font-weight:bold;
+}
+
+.project-content {
+    justify-items: center;
+    background-color: rgba(206, 208, 173, 0.232);
+    padding: 100px;
+
+}
+
+.prof-img {
+    margin-bottom: 50px;
+    border-radius: 100%;
+}
+
+
+
+.project-btn {
+    width: 450px;
+}
+
+.project-btn:hover {
+    opacity: 25%;
+}
+
+.content-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+.contact-info {
+    
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.project{
+    margin:auto;
+    max-width: 800px;
+    background-color: white;
+    display:flex;
+    flex-direction:row;
+    gap: 35px;
+    padding: 25px;
+    margin-bottom: 60px;
+}
+
+.project-type{
+    font-weight: bold;
+}
